@@ -1,0 +1,91 @@
+html {
+	height: 100%;
+}
+
+body {
+	background-color: #000;
+	background: url(Images/bg-pattern.png);
+	color: #FFF;
+	height: 100%;	
+}
+
+#content {
+	height: 100%;
+}
+
+article {
+	margin: auto;
+	width: 60%;	
+}
+
+p {
+	color: #83322c;
+	text-align: justify;
+	font-size: 1em;
+	font-family: "Gill Sans", Verdana, sans-serif;
+	line-height: 1.6em;
+}
+
+h1 {
+	color: #47120e;
+	text-align: center;
+	font-size: 3em;
+	text-shadow: 0.01em 0.01em 0.05em #d24a40, 0.05em 0.05em 0.4em #571a16;
+	font-family: "Gill Sans", Verdana, sans-serif;
+}
+
+h2 {
+	color: #47120e;
+	text-align: center;
+	font-size: 1.5em;
+	font-family: "Gill Sans", Verdana, sans-serif;
+}
+
+h3 {
+	color: #532828;
+	text-align: center;
+	font-size: 1.1em;
+	font-family: "Gill Sans", Verdana, sans-serif;
+}
+
+.italics {
+	font-style: italic;
+}
+
+
+@media all and (max-width : 480px) {
+	nav {
+	display: block;
+	}
+   
+   	nav#back {
+	float: none;
+	}
+
+	nav#forward {
+	float: none;
+	}
+}
+
+@media all and (min-width : 481px) {
+	
+  	#table-wrap {
+	height: 100%;
+	display: table;
+	position: relative;
+	overflow: hidden;
+	}
+
+	#table {
+	display: table-cell;
+	vertical-align: middle;
+	}
+	
+	nav#back {
+	float: left;
+	}
+
+	nav#forward {
+	float: right;
+	}
+}
